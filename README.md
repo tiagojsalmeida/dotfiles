@@ -1,51 +1,17 @@
-     _     _           _
-    | |   | |         | |
-    | |___| |_____  __| | ____
-    |_____  (____ |/ _  |/ ___)
-     _____| / ___ ( (_| | |
-    (_______\_____|\____|_|
-
-    # Yet Another Dotfile Repo v1.1
-    # Now with Prezto and Vundle!
-
-[![Join the chat at https://gitter.im/skwp/dotfiles](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/skwp/dotfiles?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-    sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"
-
-**Always be sure to run `rake update` after pulling to ensure plugins are updated**
-
-## What is YADR?
-
-**YADR is an opinionated dotfile repo that will make your heart sing**
-
-  * The best bits of all the top dotfile repos, vim and zsh plugins curated in one place, into a simple and cohesive way of working.
-  * More than 90 vim plugins, all under one roof, working together, each plugin researched and configured to be at its best, often with better shortcut keys.
-  * Many zsh plugins, starting with the wonderful Prezto base, and adding a few niceties on top.
-  * All things are vimized: irb, postgres command line, etc.
-
-## Mailing List
-
-Got questions, concerns, want to hear announcements? Join the [Google Group](https://groups.google.com/forum/#!forum/yadr-users)
-
-Please use GitHub Issues for pull requests or bug reports only.
-
-## Screenshot
-
-![screenshot](http://i.imgur.com/3C1Ze.png)
-
 ## Installation
 
 To get started please run:
 
 ```bash
-sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/tiagojsalmeida/dotfiles/master/install.sh`"
 ```
+**Always be sure to run `rake update` after pulling to ensure plugins are updated**
 
 **Note:** YADR will automatically install all of its subcomponents. If you want to be asked
 about each one, use:
 
 ```bash
-sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`" -s ask
+sh -c "`curl -fsSL https://raw.githubusercontent.com/tiagojsalmeida/dotfiles/master/install.sh`" -s ask
 ```
 
 ## Wait, you're not done! Do this:
