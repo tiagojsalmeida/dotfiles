@@ -207,7 +207,7 @@ def install_node
   puts "======================================================"
   puts "Installing Node and global node modules"
   puts "======================================================"
-  run %{./node/global.sh}
+  run %{sh node/global.sh}
   puts
 end
 
