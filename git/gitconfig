@@ -111,6 +111,7 @@
 [core]
   autocrlf = false
   editor = vim
+  attributesfile = ~/.yadr/git/gitattributes
   excludesfile = ~/.yadr/git/gitignore
 [advice]
   statusHints = false
