@@ -1,2 +1,1 @@
-  ZSH_THEME="agnoster"
-  #prompt skwp
+prompt agnoster
