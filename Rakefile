@@ -4,12 +4,15 @@ require File.join(File.dirname(__FILE__), 'bin', 'yadr', 'vundle')
 
 desc "Hook our dotfiles into system-standard positions."
 task :install => [:submodule_init, :submodules] do
-  puts
-  puts "======================================================"
-  puts "Welcome to YADR Installation."
-  puts "======================================================"
-  puts
-
+  puts ""
+  puts "     .::            .::      .::    .::                 "
+  puts "     .::            .::    .:    .: .::                 "
+  puts "     .::   .::    .:.: .:.:.: .:    .::   .::     .:::: "
+  puts " .:: .:: .::  .::   .::    .::  .:: .:: .:   .:: .::    "
+  puts ".:   .::.::    .::  .::    .::  .:: .::.::::: .::  .::: "
+  puts ".:   .:: .::  .::   .::    .::  .:: .::.:            .::"
+  puts ""
+  puts ""
   install_homebrew if RUBY_PLATFORM.downcase.include?("darwin")
   install_rvm_binstubs
 
@@ -22,10 +25,12 @@ task :install => [:submodule_init, :submodules] do
   install_files(Dir.glob('vimify/*')) if want_to_install?('vimification of command line tools')
   if want_to_install?('vim configuration (highly recommended)')
     install_files(Dir.glob('{vim,vimrc}'))
-    Rake::Task["install_vundle"].execute
+    #Rake::Task["install_vundle"].execute
   end
 
   Rake::Task["install_prezto"].execute
+
+  install_node
 
   install_fonts
 
@@ -198,6 +203,14 @@ def install_diff_fancy
   puts
 end
 
+def install_node
+  puts "======================================================"
+  puts "Installing Node and global node modules"
+  puts "======================================================"
+  run %{./node/global.sh}
+  puts
+end
+
 def install_term_theme
   puts "======================================================"
   puts "Installing iTerm2 solarized theme."
@@ -366,7 +379,7 @@ def apply_theme_to_iterm_profile_idx(index, color_scheme_path)
 end
 
 def success_msg(action)
-  puts ""
+  puts "Powered by"
   puts "   _     _           _         "
   puts "  | |   | |         | |        "
   puts "  | |___| |_____  __| | ____   "
