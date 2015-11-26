@@ -1,1 +1,2 @@
-prompt skwp
+  ZSH_THEME="agnoster"
+  #prompt skwp
