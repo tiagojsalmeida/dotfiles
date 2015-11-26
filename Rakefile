@@ -29,6 +29,8 @@ task :install => [:submodule_init, :submodules] do
 
   install_fonts
 
+  install_diff_fancy
+
   install_term_theme if RUBY_PLATFORM.downcase.include?("darwin")
 
   run_bundle_config
@@ -184,6 +186,15 @@ def install_fonts
   puts "======================================================"
   run %{ cp -f $HOME/.yadr/fonts/* $HOME/Library/Fonts } if RUBY_PLATFORM.downcase.include?("darwin")
   run %{ mkdir -p ~/.fonts && cp ~/.yadr/fonts/* ~/.fonts && fc-cache -vf ~/.fonts } if RUBY_PLATFORM.downcase.include?("linux")
+  puts
+end
+
+def install_diff_fancy
+  puts "======================================================"
+  puts "Installing diff-so-fancy from @paulirish"
+  puts "======================================================"
+  run %{brew install gnu-sed --with-default-names}
+  run %{ln -sf "$(brew --prefix)/share/git-core/contrib/diff-highlight/diff-highlight" ~/bin/diff-highlight}
   puts
 end
 

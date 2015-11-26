@@ -11,6 +11,12 @@
   frag = magenta bold
   old = red
   new = green
+[color "diff-highlight"]
+  oldNormal = "red bold"
+  oldHighlight = "red bold 52"
+  newNormal = "green bold"
+  newHighlight = "green bold 22"
+#
 [alias]
   # add
   a = add                           # add
@@ -113,6 +119,10 @@
   editor = vim
   attributesfile = ~/.yadr/git/gitattributes
   excludesfile = ~/.yadr/git/gitignore
+  pager = diff-highlight | diff-so-fancy | less
+  diff = diff-highlight | diff-so-fancy | less
+  log = diff-highlight | diff-so-fancy | less
+  show = diff-highlight | diff-so-fancy | less
 [advice]
   statusHints = false
 [diff]
