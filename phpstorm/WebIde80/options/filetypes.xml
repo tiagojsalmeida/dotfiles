@@ -1,0 +1,19 @@
+<application>
+  <component name="FileTypeManager" version="11">
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
+    <extensionMap>
+      <mapping pattern="page.json" type="PLAIN_TEXT" />
+      <mapping pattern=".less-watch" type="PLAIN_TEXT" />
+      <mapping pattern=".bowerrc" type="PLAIN_TEXT" />
+      <mapping pattern="reportTableCalculateHeight" type="PLAIN_TEXT" />
+      <mapping pattern="timestamp" type="PLAIN_TEXT" />
+      <mapping pattern="agent-avatar-53301.json" type="PLAIN_TEXT" />
+      <mapping ext="svg" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="mo" type="PLAIN_TEXT" />
+      <mapping ext="hbs" type="PLAIN_TEXT" />
+      <mapping ext="es6" type="TypeScript" />
+    </extensionMap>
+    <setting name="fileTypeChangedCounter" value="3" />
+  </component>
+</application>

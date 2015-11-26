@@ -1,0 +1,221 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="php-interpreter-version">
+      <project id="$$watchers-latest" values="not installed" />
+      <project id="agent-middleware" values="not installed" />
+      <project id="zendesk" values="not installed" />
+      <project id="agent" values="not installed" />
+      <project id="ecn-frontend" values="not installed" />
+      <project id="admin" values="not installed" />
+      <project id="im-app" values="not installed" />
+      <project id="popcorn-app-master" values="not installed" />
+      <project id="IM-Dialer" values="not installed" />
+      <project id="popcorn-app-new_sidebar" values="not installed" />
+      <project id="node-js" values="not installed" />
+      <project id="extensions" values="not installed" />
+      <project id="backend" values="not installed" />
+      <project id="dotfiles" values="not installed" />
+      <project id="discount-ascii-warehouse" values="not installed" />
+      <project id="frontend" values="not installed" />
+      <project id="tiagojsalmeida-frontend-test" values="not installed" />
+      <project id="angular2_quickstart" values="not installed" />
+      <project id="frontend-old" values="not installed" />
+    </group>
+    <group name="vcs">
+      <project id="backend" values="Git" />
+      <project id="ecn-frontend" values="Git" />
+      <project id="agent-middleware" values="Git" />
+      <project id="discount-ascii-warehouse" values="Git" />
+      <project id="node-js" values="Git" />
+      <project id="frontend" values="Git" />
+      <project id="frontend-old" values="Git" />
+      <project id="dotfiles" values="Git" />
+      <project id="agent" values="Git" />
+      <project id="tiagojsalmeida-frontend-test" values="Git" />
+      <project id="$$watchers-latest" values="Git" />
+      <project id="admin" values="Git" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="$$watchers-latest" values="DEFAULT" />
+      <project id="agent-middleware" values="DEFAULT" />
+      <project id="zendesk" values="DEFAULT" />
+      <project id="agent" values="DEFAULT" />
+      <project id="ecn-frontend" values="DEFAULT" />
+      <project id="admin" values="DEFAULT" />
+      <project id="im-app" values="DEFAULT" />
+      <project id="popcorn-app-master" values="DEFAULT" />
+      <project id="IM-Dialer" values="DEFAULT" />
+      <project id="popcorn-app-new_sidebar" values="DEFAULT" />
+      <project id="node-js" values="DEFAULT" />
+      <project id="extensions" values="DEFAULT" />
+      <project id="backend" values="DEFAULT" />
+      <project id="dotfiles" values="DEFAULT" />
+      <project id="discount-ascii-warehouse" values="DEFAULT" />
+      <project id="frontend" values="DEFAULT" />
+      <project id="tiagojsalmeida-frontend-test" values="DEFAULT" />
+      <project id="angular2_quickstart" values="DEFAULT" />
+      <project id="frontend-old" values="DEFAULT" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="$$watchers-latest" values="0" />
+      <project id="agent-middleware" values="0" />
+      <project id="zendesk" values="0" />
+      <project id="agent" values="0" />
+      <project id="ecn-frontend" values="0" />
+      <project id="admin" values="0" />
+      <project id="im-app" values="0" />
+      <project id="popcorn-app-master" values="0" />
+      <project id="IM-Dialer" values="0" />
+      <project id="popcorn-app-new_sidebar" values="0" />
+      <project id="node-js" values="0" />
+      <project id="extensions" values="0" />
+      <project id="backend" values="0" />
+      <project id="dotfiles" values="0" />
+      <project id="discount-ascii-warehouse" values="0" />
+      <project id="frontend" values="0" />
+      <project id="tiagojsalmeida-frontend-test" values="0" />
+      <project id="angular2_quickstart" values="0" />
+      <project id="frontend-old" values="0" />
+    </group>
+    <group name="php-servers">
+      <project id="$$watchers-latest" values="0" />
+      <project id="agent-middleware" values="0" />
+      <project id="zendesk" values="0" />
+      <project id="agent" values="0" />
+      <project id="ecn-frontend" values="0" />
+      <project id="admin" values="0" />
+      <project id="im-app" values="0" />
+      <project id="popcorn-app-master" values="0" />
+      <project id="IM-Dialer" values="0" />
+      <project id="popcorn-app-new_sidebar" values="0" />
+      <project id="node-js" values="0" />
+      <project id="extensions" values="0" />
+      <project id="backend" values="0" />
+      <project id="dotfiles" values="0" />
+      <project id="discount-ascii-warehouse" values="0" />
+      <project id="frontend" values="0" />
+      <project id="tiagojsalmeida-frontend-test" values="0" />
+      <project id="angular2_quickstart" values="0" />
+      <project id="frontend-old" values="0" />
+    </group>
+    <group name="php-interpreters">
+      <project id="$$watchers-latest" values="0" />
+      <project id="agent-middleware" values="0" />
+      <project id="zendesk" values="0" />
+      <project id="agent" values="0" />
+      <project id="ecn-frontend" values="0" />
+      <project id="admin" values="0" />
+      <project id="im-app" values="0" />
+      <project id="popcorn-app-master" values="0" />
+      <project id="IM-Dialer" values="0" />
+      <project id="popcorn-app-new_sidebar" values="0" />
+      <project id="node-js" values="0" />
+      <project id="extensions" values="0" />
+      <project id="backend" values="0" />
+      <project id="dotfiles" values="0" />
+      <project id="discount-ascii-warehouse" values="0" />
+      <project id="frontend" values="0" />
+      <project id="tiagojsalmeida-frontend-test" values="0" />
+      <project id="angular2_quickstart" values="0" />
+      <project id="frontend-old" values="0" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="$$watchers-latest" values="Project,Project" />
+      <project id="agent-middleware" values="Project,Project" />
+      <project id="zendesk" values="Project,Project" />
+      <project id="agent" values="Project,Project" />
+      <project id="ecn-frontend" values="Project,Project" />
+      <project id="admin" values="Project,Project" />
+      <project id="im-app" values="Project,Project" />
+      <project id="popcorn-app-master" values="Project,Project" />
+      <project id="IM-Dialer" values="Project,Project" />
+      <project id="popcorn-app-new_sidebar" values="Project,Project" />
+      <project id="node-js" values="Project,Project" />
+      <project id="extensions" values="Project,Project" />
+      <project id="backend" values="Project,Project" />
+      <project id="dotfiles" values="Project,Project" />
+      <project id="discount-ascii-warehouse" values="Project,Project" />
+      <project id="frontend" values="Project,Project" />
+      <project id="tiagojsalmeida-frontend-test" values="Project,Project" />
+      <project id="angular2_quickstart" values="Project,Project" />
+      <project id="frontend-old" values="Project,Project" />
+    </group>
+    <group name="file-type">
+      <project id="$$watchers-latest" values="HTML,CSS,PLAIN_TEXT,XML,UNKNOWN,JSON,JavaScript,Images" />
+      <project id="agent-middleware" values="CSS,PLAIN_TEXT,XML,PHP,UNKNOWN,Images,Ini,JavaScript,JSON,Smarty,htaccess,HTML,YAML" />
+      <project id="zendesk" values="JavaScript,CSS,JSON,UNKNOWN,Images,PLAIN_TEXT,XML" />
+      <project id="agent" values="PATCH,SmartyConfig,Ini,YAML,PHP,ESLint,JSON,JSCS,SASS,SourceMap,CSS,XML,DTD,JavaScript,C++,LESS,HTML,ARCHIVE,JSHint,CoffeeScript,Images,PLAIN_TEXT,UNKNOWN" />
+      <project id="ecn-frontend" values="ARCHIVE,PLAIN_TEXT,CSS,JSON,YAML,Images,Native,JavaScript,SQL,XML,UNKNOWN,HTML,SourceMap,PHP,LESS" />
+      <project id="admin" values="CoffeeScript,JSON,SASS,JavaScript,YAML,JSCS,SourceMap,PLAIN_TEXT,ARCHIVE,PATCH,ESLint,JSHint,UNKNOWN,XML,C++,PHP,CSS,SmartyConfig,LESS,Ini,DTD,HTML,Images" />
+      <project id="im-app" values="JSON,UNKNOWN,JavaScript,C#,CSS,C++,HTML,PLAIN_TEXT,Images,XML,SCSS" />
+      <project id="popcorn-app-master" values="SCSS,HTML,ARCHIVE,UNKNOWN,DTD,CSS,PLAIN_TEXT,PHP,JavaScript,Perl,JSON,XML,Images,C++,YAML,JSHint,ESLint,PATCH,SourceMap,SmartyConfig" />
+      <project id="IM-Dialer" values="HTML,JSON,JSHint,XML,LESS,SCSS,SourceMap,CoffeeScript,C#,CSS,PHP,Images,JavaScript,YAML,C++,PLAIN_TEXT,TypeScript,UNKNOWN" />
+      <project id="popcorn-app-new_sidebar" values="Native,YAML,JavaScript,UNKNOWN,DTD,JSON,XML,PATCH,PLAIN_TEXT,ARCHIVE,CSS,SmartyConfig,ReST,SCSS,JSHint,C++,HTML,Images" />
+      <project id="node-js" values="CSS,SmartyConfig,Markdown,C++,XML,CoffeeScript,YAML,JSCS,JSHint,PHP,HTML,JavaScript,UNKNOWN,ActionScript,JSON,DTD,PLAIN_TEXT,Images" />
+      <project id="extensions" values="YAML,PATCH,XML,C++,CoffeeScript,JSON,HTML,JavaScript,SmartyConfig,JSHint,LESS,ARCHIVE,UNKNOWN,Images,SourceMap,CSS,PLAIN_TEXT" />
+      <project id="backend" values="JSON,ReST,Images,HTML,JavaScript,Cucumber,Smarty,PLAIN_TEXT,SmartyConfig,Ini,PHP,YAML,UNKNOWN,CSS,Locale,XML,htaccess,PHAR,TypeScript,SQL" />
+      <project id="dotfiles" values="UNKNOWN,CSS,SmartyConfig,XML,PLAIN_TEXT,Markdown,YAML" />
+      <project id="discount-ascii-warehouse" values="XML,CSS,PLAIN_TEXT,SourceMap,HTML,JSHint,TypeScript,JavaScript,Images,PATCH,YAML,Markdown,JSON,UNKNOWN" />
+      <project id="frontend" values="HTML,JSON,JSHint,PHP,CoffeeScript,JavaScript,SourceMap,Ini,Markdown,Perl,ActionScript,CSS,ESLint,Images,SASS,LESS,PATCH,JSCS,PLAIN_TEXT,Locale,UNKNOWN,ARCHIVE,C++,XML,YAML,TypeScript,DTD,SmartyConfig" />
+      <project id="tiagojsalmeida-frontend-test" values="YAML,LESS,Markdown,TypeScript,CSS,ARCHIVE,JSCS,UNKNOWN,CoffeeScript,C++,PLAIN_TEXT,PATCH,HTML,ActionScript,Perl,SmartyConfig,SCSS,JSON,ESLint,XML,SourceMap,JavaScript,Images,JSHint" />
+      <project id="angular2_quickstart" values="JavaScript,HTML,PATCH,SourceMap,SmartyConfig,JSHint,JSON,YAML,ESLint,TypeScript,JSCS,CoffeeScript,Images,UNKNOWN,XML,CSS,PLAIN_TEXT" />
+      <project id="frontend-old" values="SCSS,Perl,CoffeeScript,htaccess,LESS,JavaScript,PLAIN_TEXT,JSHint,Ini,PATCH,Images,SmartyConfig,JSON,ESLint,SourceMap,SASS,PHP,XML,DTD,ActionScript,YAML,HTML,ARCHIVE,UNKNOWN,C++,CSS" />
+    </group>
+    <group name="module type">
+      <project id="$$watchers-latest" values="WEB_MODULE" />
+      <project id="agent-middleware" values="WEB_MODULE" />
+      <project id="zendesk" values="WEB_MODULE" />
+      <project id="agent" values="WEB_MODULE" />
+      <project id="ecn-frontend" values="WEB_MODULE" />
+      <project id="admin" values="WEB_MODULE" />
+      <project id="im-app" values="WEB_MODULE" />
+      <project id="popcorn-app-master" values="WEB_MODULE" />
+      <project id="IM-Dialer" values="WEB_MODULE" />
+      <project id="popcorn-app-new_sidebar" values="WEB_MODULE" />
+      <project id="node-js" values="WEB_MODULE" />
+      <project id="extensions" values="WEB_MODULE" />
+      <project id="backend" values="WEB_MODULE" />
+      <project id="dotfiles" values="WEB_MODULE" />
+      <project id="discount-ascii-warehouse" values="WEB_MODULE" />
+      <project id="frontend" values="WEB_MODULE" />
+      <project id="tiagojsalmeida-frontend-test" values="WEB_MODULE" />
+      <project id="angular2_quickstart" values="WEB_MODULE" />
+      <project id="frontend-old" values="WEB_MODULE" />
+    </group>
+    <group name="php-include-path">
+      <project id="$$watchers-latest" values="0" />
+      <project id="agent-middleware" values="0" />
+      <project id="zendesk" values="0" />
+      <project id="agent" values="0" />
+      <project id="ecn-frontend" values="0" />
+      <project id="admin" values="0" />
+      <project id="im-app" values="0" />
+      <project id="popcorn-app-master" values="0" />
+      <project id="IM-Dialer" values="0" />
+      <project id="popcorn-app-new_sidebar" values="0" />
+      <project id="node-js" values="0" />
+      <project id="extensions" values="0" />
+      <project id="backend" values="0" />
+      <project id="dotfiles" values="0" />
+      <project id="discount-ascii-warehouse" values="0" />
+      <project id="frontend" values="0" />
+      <project id="tiagojsalmeida-frontend-test" values="0" />
+      <project id="angular2_quickstart" values="0" />
+      <project id="frontend-old" values="0" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="ide.settings.CSS" count="1" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
+      <entry feature="ide.settings.Directories" count="3" />
+      <entry feature="ide.settings.Font" count="2" />
+      <entry feature="ide.settings.LESS" count="1" />
+      <entry feature="ide.settings.Live_Templates" count="10" />
+      <entry feature="ide.settings.Plugins" count="1" />
+      <entry feature="ideaapp.started" count="62" />
+    </counts>
+  </component>
+</application>

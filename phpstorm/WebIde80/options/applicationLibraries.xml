@@ -1,0 +1,35 @@
+<application>
+  <component name="libraryTable">
+    <library name="Bower Components" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Dxi/frontend-new/agent/node_modules" />
+          <item url="file://$USER_HOME$/Dxi/frontend-i18n/agent/node_modules" />
+          <item url="file://$USER_HOME$/Dxi/frontend-i18n/agent/app/bower_components" />
+          <item url="file://$USER_HOME$/Dxi/frontend-new/agent/app/bower_components" />
+          <item url="file://$USER_HOME$/Dxi/frontend/agent/node_modules" />
+          <item url="file://$USER_HOME$/Dxi/frontend-test/agent/node_modules" />
+          <item url="file://$USER_HOME$/Dxi/frontend/agent/app/bower_components" />
+          <item url="file://$USER_HOME$/Dxi/frontend-test/agent/app/bower_components" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Dxi/frontend-new/agent/node_modules" />
+        <root url="file://$USER_HOME$/Dxi/frontend-i18n/agent/node_modules" />
+        <root url="file://$USER_HOME$/Dxi/frontend-new/agent/app/bower_components" />
+        <root url="file://$USER_HOME$/Dxi/frontend-i18n/agent/app/bower_components" />
+        <root url="file://$USER_HOME$/dxi/frontend/agent/node_modules" />
+        <root url="file://$USER_HOME$/dxi/frontend-test/agent/node_modules" />
+        <root url="file://$USER_HOME$/dxi/frontend/agent/app/bower_components" />
+        <root url="file://$USER_HOME$/dxi/frontend-test/agent/app/bower_components" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="sass-stdlib">
+      <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

@@ -1,0 +1,32 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="2880" y="527" />
+    <location key="com.intellij.ide.util.TipDialog.1920.0.1920.1080" x="678" y="375" />
+    <location key="WELCOME_SCREEN.1920.0.1920.1080" x="2880" y="529" />
+    <location key="OptionsEditor.1920.0.1920.1080" x="2032" y="131" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.1920.1080" x="2630" y="426" />
+    <location key="findTextDialog.1920.0.1920.1080" x="2674" y="319" />
+    <location key="DiffWindow.1920.0.1920.1080" x="2020" y="122" />
+    <location key="VCS.ChangeListViewerDialog.1920.0.1920.1080" x="2668" y="269" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.1920.0.1920.1080" x="2606" y="356" />
+    <location key="replaceTextDialog.1920.0.1920.1080" x="2584" y="494" />
+    <location key="#Inspections.1920.0.1920.1080" x="2518" y="237" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1920.0.1920.1080" x="2621" y="444" />
+    <location key="#Browse_JetBrains_Plugins_.1920.0.1920.1080" x="2344" y="211" />
+    <location key="ReplaceDuplicatesPrompt.1920.0.1920.1080" x="2702" y="444" />
+    <location key="RollbackChangesDialog.1920.0.1920.1080" x="2667" y="282" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.1920.0.1920.1080" x="2534" y="291" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.1920.0.1920.1080" x="2718" y="173" />
+    <location key="#com.intellij.ide.util.MemberChooser.1920.0.1920.1080" x="2693" y="270" />
+    <location key="git4idea.merge.GitMergeDialog.1920.0.1920.1080" x="2661" y="351" />
+    <location key="MultipleFileMergeDialog.1920.0.1920.1080" x="2579" y="294" />
+    <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.1920.0.1920.1080" x="2493" y="402" />
+    <size key="DiffWindow.1920.0.1920.1080" width="1720" height="858" />
+    <size key="OptionsEditor.1920.0.1920.1080" width="1448" height="839" />
+    <size key="replaceTextDialog.1920.0.1920.1080" width="470" height="533" />
+    <size key="findTextDialog.1920.0.1920.1080" width="477" height="483" />
+    <size key="Vcs.CompareWithSelectedRevision.Popup.1920.0.1920.1080" width="300" height="392" />
+    <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.1920.0.1920.1080" width="798" height="309" />
+    <extendedState key="DiffWindow" state="0" />
+  </component>
+</application>
