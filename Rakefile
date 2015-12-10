@@ -25,7 +25,7 @@ task :install => [:submodule_init, :submodules] do
   install_files(Dir.glob('vimify/*')) if want_to_install?('vimification of command line tools')
   if want_to_install?('vim configuration (highly recommended)')
     install_files(Dir.glob('{vim,vimrc}'))
-    #Rake::Task["install_vundle"].execute
+    Rake::Task["install_vundle"].execute
   end
 
   Rake::Task["install_prezto"].execute
