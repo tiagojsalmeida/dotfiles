@@ -115,7 +115,7 @@
   # the usual default is to push all branches
   default = upstream
 [core]
-  autocrlf = false
+	autocrlf = input
   editor = vim
   attributesfile = ~/.yadr/git/gitattributes
   excludesfile = ~/.yadr/git/gitignore
@@ -123,6 +123,7 @@
   diff = diff-highlight | diff-so-fancy | less
   log = diff-highlight | diff-so-fancy | less
   show = diff-highlight | diff-so-fancy | less
+	safecrlf = false
 [advice]
   statusHints = false
 [diff]
@@ -136,3 +137,5 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[init]
+	templatedir = ~/.git_global

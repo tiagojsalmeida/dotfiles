@@ -208,3 +208,56 @@ alias dbmu='spring rake db:migrate:up'
 
 # Homebrew
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
+alias gti=git
+
+function tabc() {
+  NAME=$1; if [ -z "$NAME" ]; then NAME="Default"; fi
+  echo -e "\033]50;SetProfile=$NAME\a"
+}
+
+function tab-reset() {
+  NAME="Default"
+  echo -e "\033]50;SetProfile=$NAME\a"
+}
+
+function colorssh() {
+  if [[ -n "$ITERM_SESSION_ID" ]]; then
+    trap "tab-reset" INT EXIT
+    if [[ "$*" =~ "vagrant*" ]]; then
+      tabc Vagrant
+    elif [[ "$*" =~ "staging*" ]]; then
+      tabc Staging
+    else
+      tabc Other
+    fi
+  fi
+  ssh $*
+}
+
+#compdef _ssh tabc=ssh
+#alias ssh=color-ssh
+
+if [ -z ${HF_AUTOMATION_PATH+x} ]; then
+  HF_AUTOMATION_PATH="/Users/tiagoalmeida/webdev/src/automation"
+fi
+
+deploy() {
+    pushd .
+    cd "$HF_AUTOMATION_PATH"
+    pushd .
+    git checkout master
+    git pull origin master
+    cd plays
+    
+    if [ -z ${3+x} ]; then
+      ansible-playbook -i "../$2.ini" -t deployment -e deployment_force=true "$1.yml"
+    else
+      ansible-playbook -i "../$2.ini" -t deployment -e deployment_force=true "$1.yml" -e "deployment_version=$3"
+    fi
+    
+    popd
+    popd
+}
+
+
+export ANSIBLE_SSH_CONTROL_PATH="/tmp/%%h-%%r"
