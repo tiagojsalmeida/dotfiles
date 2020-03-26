@@ -124,6 +124,7 @@
   log = diff-highlight | diff-so-fancy | less
   show = diff-highlight | diff-so-fancy | less
 	safecrlf = false
+	hooksPath = /Users/talmeida/.git_global/hooks
 [advice]
   statusHints = false
 [diff]
@@ -138,4 +139,9 @@
 [include]
   path = .gitconfig.user
 [init]
-	templatedir = ~/.git_global
+	templatedir = ~/.git-global
+[user]
+	name = Tiago Almeida
+	email = tjsa@ua.pt
+[commit]
+	gpgsign = true
